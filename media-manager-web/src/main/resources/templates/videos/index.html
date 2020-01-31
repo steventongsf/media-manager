@@ -9,10 +9,12 @@
     <tr>
         <th>Title</th>
         <th>Duration</th>
+        <th>Location</th>
     </tr>
     <tr th:each="video : ${videos}"> 
         <td th:text="${video.title}"></td>
         <td th:text="${video.duration}"></td>
+        <td th:text="${video.location}"></td>
     </tr>
 </table>
 </body>
