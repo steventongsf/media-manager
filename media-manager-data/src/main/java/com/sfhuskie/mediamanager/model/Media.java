@@ -56,7 +56,8 @@ public class Media implements Serializable {
     private String notes;
     @Column(name = "location")
     private String location;
-
+    @Column(name = "duration")
+    private String duration;
     
     public boolean isNew() {
         return this.id == null;
