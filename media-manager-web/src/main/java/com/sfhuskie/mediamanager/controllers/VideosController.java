@@ -24,7 +24,6 @@ import com.sfhuskie.mediamanager.repositories.VideoRepository;
 /**
 * 	@author Steven Tong
 */
-
 @Controller
 public class VideosController {
     
